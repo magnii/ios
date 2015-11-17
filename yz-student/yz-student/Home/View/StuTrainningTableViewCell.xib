@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StuTrainningTableViewCell" rowHeight="155" id="KGk-i7-Jjw" customClass="StuTrainningTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="438" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="438" height="154"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="B6U-iK-Gru">
+                        <rect key="frame" x="8" y="8" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="1Bc-Ul-3xb"/>
+                            <constraint firstAttribute="height" constant="100" id="5Gd-4o-7SK"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生存能力测试培训" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAb-Dq-5YE">
+                        <rect key="frame" x="116" y="8" width="322" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="I6m-1I-fc7"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="22" id="g36-Rt-SIf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="开始日期：2015-12-22 09:22" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zdl-3T-fMc">
+                        <rect key="frame" x="116" y="30" width="322" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="Ahd-Iv-ySP"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="结束日期：2015-12-22 09:22" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r4r-gx-lM4">
+                        <rect key="frame" x="116" y="49" width="322" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="hkV-kA-yVV"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="名额：1000人" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eDN-RV-qtZ">
+                        <rect key="frame" x="116" y="68" width="314" height="19"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="19" id="cMC-Ei-dbb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="生存能力测试培训" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEB-OJ-Vco">
+                        <rect key="frame" x="116" y="87" width="314" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="KxJ-Zo-49W"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="eDN-RV-qtZ" firstAttribute="leading" secondItem="B6U-iK-Gru" secondAttribute="trailing" constant="8" id="3L7-Pz-8Ju"/>
+                    <constraint firstItem="iAb-Dq-5YE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="4u6-hL-D7F"/>
+                    <constraint firstItem="aEB-OJ-Vco" firstAttribute="top" secondItem="eDN-RV-qtZ" secondAttribute="bottom" id="5J6-EM-vbl"/>
+                    <constraint firstItem="r4r-gx-lM4" firstAttribute="leading" secondItem="B6U-iK-Gru" secondAttribute="trailing" constant="8" id="AJo-Pw-o8T"/>
+                    <constraint firstItem="iAb-Dq-5YE" firstAttribute="leading" secondItem="B6U-iK-Gru" secondAttribute="trailing" constant="8" id="Fda-o0-yJV"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="eDN-RV-qtZ" secondAttribute="trailing" id="GsP-3n-q7g"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="aEB-OJ-Vco" secondAttribute="trailing" id="KNx-eU-vQR"/>
+                    <constraint firstAttribute="trailing" secondItem="r4r-gx-lM4" secondAttribute="trailing" id="W0f-o9-yUA"/>
+                    <constraint firstItem="B6U-iK-Gru" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="XYS-9h-2Kw"/>
+                    <constraint firstAttribute="trailing" secondItem="iAb-Dq-5YE" secondAttribute="trailing" id="atJ-Wc-CS7"/>
+                    <constraint firstItem="r4r-gx-lM4" firstAttribute="top" secondItem="Zdl-3T-fMc" secondAttribute="bottom" id="bDO-Fk-5XK"/>
+                    <constraint firstItem="Zdl-3T-fMc" firstAttribute="leading" secondItem="B6U-iK-Gru" secondAttribute="trailing" constant="8" id="beE-us-PfD"/>
+                    <constraint firstItem="iAb-Dq-5YE" firstAttribute="leading" secondItem="B6U-iK-Gru" secondAttribute="trailing" constant="8" id="eRe-ih-wbw"/>
+                    <constraint firstItem="Zdl-3T-fMc" firstAttribute="top" secondItem="iAb-Dq-5YE" secondAttribute="bottom" id="h8A-Xo-8U4"/>
+                    <constraint firstItem="iAb-Dq-5YE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="iFj-PZ-wXR"/>
+                    <constraint firstItem="iAb-Dq-5YE" firstAttribute="top" secondItem="B6U-iK-Gru" secondAttribute="top" id="iqj-cP-Gdl"/>
+                    <constraint firstAttribute="trailing" secondItem="Zdl-3T-fMc" secondAttribute="trailing" id="lJ4-BV-i04"/>
+                    <constraint firstItem="aEB-OJ-Vco" firstAttribute="leading" secondItem="B6U-iK-Gru" secondAttribute="trailing" constant="8" id="oEZ-PC-2ng"/>
+                    <constraint firstItem="eDN-RV-qtZ" firstAttribute="top" secondItem="r4r-gx-lM4" secondAttribute="bottom" id="oiU-oC-AbZ"/>
+                    <constraint firstItem="B6U-iK-Gru" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="zVo-x9-qn2"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="4u6-hL-D7F"/>
+                        <exclude reference="iFj-PZ-wXR"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="trainingAddress" destination="aEB-OJ-Vco" id="04C-Tv-kyG"/>
+                <outlet property="trainingEndDate" destination="r4r-gx-lM4" id="sZ9-e1-tbT"/>
+                <outlet property="trainingImageView" destination="B6U-iK-Gru" id="esw-A5-eDh"/>
+                <outlet property="trainingPeoples" destination="eDN-RV-qtZ" id="w4G-Xw-XDA"/>
+                <outlet property="trainingStartDate" destination="Zdl-3T-fMc" id="tOd-Kt-FIh"/>
+                <outlet property="trainingTitle" destination="iAb-Dq-5YE" id="fQs-f1-imN"/>
+            </connections>
+            <point key="canvasLocation" x="184" y="223.5"/>
+        </tableViewCell>
+    </objects>
+</document>

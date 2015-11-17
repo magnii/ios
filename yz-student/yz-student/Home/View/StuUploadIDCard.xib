@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zT7-aX-LS8" customClass="StuUploadIDCard">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="615"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKG-B8-o7l">
+                    <rect key="frame" x="142" y="165" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.62745098039215685" blue="0.85882352941176465" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="aK6-ZY-4D6"/>
+                        <constraint firstAttribute="height" constant="30" id="iZA-Uq-o19"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <state key="normal" title="上传身份证">
+                        <color key="titleColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="uploadCertificateBtnClick:" destination="zT7-aX-LS8" eventType="touchUpInside" id="tsM-6x-xzU"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1x2-RZ-yhf">
+                    <rect key="frame" x="142" y="365" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.62745098040000002" blue="0.85882352939999995" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="caP-Oa-Jmv"/>
+                        <constraint firstAttribute="height" constant="30" id="ghO-j7-HkD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <state key="normal" title="上传学生证">
+                        <color key="titleColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="uploadStuCertificateBtnClick:" destination="zT7-aX-LS8" eventType="touchUpInside" id="faV-4B-ibg"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ULK-mk-pGJ">
+                    <rect key="frame" x="117" y="435" width="150" height="35"/>
+                    <color key="backgroundColor" red="0.81568627450980391" green="0.48627450980392156" blue="0.0078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="35" id="JCe-3s-bZW"/>
+                        <constraint firstAttribute="width" constant="150" id="rvx-Rh-Z9W"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal" title="提交">
+                        <color key="titleColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="commitBtnClick:" destination="zT7-aX-LS8" eventType="touchUpInside" id="ANF-st-hyD"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DTF-aB-crT">
+                    <rect key="frame" x="60" y="15" width="263" height="130"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="DTF-aB-crT" secondAttribute="height" multiplier="67:33" id="Ahr-qu-wyk"/>
+                    </constraints>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0o9-np-suC">
+                    <rect key="frame" x="60" y="215" width="263" height="130"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0o9-np-suC" secondAttribute="height" multiplier="263:130" id="Tvc-1r-CdL"/>
+                    </constraints>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="1x2-RZ-yhf" firstAttribute="top" secondItem="0o9-np-suC" secondAttribute="bottom" constant="20" id="1g5-eg-KsT"/>
+                <constraint firstItem="DTF-aB-crT" firstAttribute="top" secondItem="zT7-aX-LS8" secondAttribute="top" constant="15" id="6JS-dY-V0h"/>
+                <constraint firstItem="0o9-np-suC" firstAttribute="top" secondItem="xKG-B8-o7l" secondAttribute="bottom" constant="20" id="7MO-W9-fmV"/>
+                <constraint firstItem="0o9-np-suC" firstAttribute="leading" secondItem="zT7-aX-LS8" secondAttribute="leading" constant="60" id="97S-Nh-HkK"/>
+                <constraint firstAttribute="trailing" secondItem="DTF-aB-crT" secondAttribute="trailing" constant="60" id="Dup-1T-IUK"/>
+                <constraint firstItem="1x2-RZ-yhf" firstAttribute="centerX" secondItem="zT7-aX-LS8" secondAttribute="centerX" id="Els-Im-qlh"/>
+                <constraint firstItem="DTF-aB-crT" firstAttribute="leading" secondItem="zT7-aX-LS8" secondAttribute="leading" constant="60" id="Emm-4M-fkN"/>
+                <constraint firstItem="ULK-mk-pGJ" firstAttribute="centerX" secondItem="zT7-aX-LS8" secondAttribute="centerX" id="Lq3-yt-qEB"/>
+                <constraint firstAttribute="trailing" secondItem="0o9-np-suC" secondAttribute="trailing" constant="60" id="Qy1-pC-dzI"/>
+                <constraint firstItem="xKG-B8-o7l" firstAttribute="centerX" secondItem="zT7-aX-LS8" secondAttribute="centerX" id="RCJ-MV-6Be"/>
+                <constraint firstItem="xKG-B8-o7l" firstAttribute="top" secondItem="DTF-aB-crT" secondAttribute="bottom" constant="20" id="Vzp-9Z-Fjw"/>
+                <constraint firstItem="ULK-mk-pGJ" firstAttribute="top" secondItem="1x2-RZ-yhf" secondAttribute="bottom" constant="40" id="gbO-0t-TMD"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="certificateBtn" destination="DTF-aB-crT" id="rRN-zN-mLS"/>
+                <outlet property="commitBtn" destination="ULK-mk-pGJ" id="XSK-Qe-bGC"/>
+                <outlet property="stuCertificateBtn" destination="0o9-np-suC" id="TOZ-j3-X8V"/>
+                <outlet property="uploadCertificateBtn" destination="xKG-B8-o7l" id="MIh-9p-RGh"/>
+                <outlet property="uploadStuCertificateBtn" destination="1x2-RZ-yhf" id="9Fn-lh-14Y"/>
+            </connections>
+            <point key="canvasLocation" x="610.5" y="7.5"/>
+        </view>
+    </objects>
+</document>

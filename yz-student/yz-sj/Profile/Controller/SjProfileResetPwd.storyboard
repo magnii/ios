@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Sj Profile Reset Pwd View Controller-->
+        <scene sceneID="pFI-FS-z3n">
+            <objects>
+                <viewController storyboardIdentifier="SjProfileResetPwd" id="t2Z-jo-rKI" customClass="SjProfileResetPwdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gH4-kE-jb3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Myb-wm-qQo"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WVq-UD-mKA">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入旧密码" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="7Yf-tf-TkX">
+                                <rect key="frame" x="40" y="94" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="6jT-TS-bYG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请输入新密码" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="lyB-Gh-hoW">
+                                <rect key="frame" x="40" y="134" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="u95-8C-saB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="请重新输入新密码" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="gcw-Wv-eoR">
+                                <rect key="frame" x="40" y="174" width="240" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="XBT-rO-Da0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qah-g1-cmb">
+                                <rect key="frame" x="80" y="244" width="160" height="30"/>
+                                <color key="backgroundColor" red="0.070588235289999995" green="0.55294117649999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Xqd-Qk-dit"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="确认修改密码">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="resetPwdBtnClick:" destination="t2Z-jo-rKI" eventType="touchUpInside" id="I3S-YJ-fCa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Yf-tf-TkX" firstAttribute="leading" secondItem="WVq-UD-mKA" secondAttribute="leading" constant="40" id="4ZR-xC-CoJ"/>
+                            <constraint firstItem="lyB-Gh-hoW" firstAttribute="leading" secondItem="WVq-UD-mKA" secondAttribute="leading" constant="40" id="7qq-r4-QL3"/>
+                            <constraint firstAttribute="trailing" secondItem="Qah-g1-cmb" secondAttribute="trailing" constant="80" id="ACg-AH-U8w"/>
+                            <constraint firstAttribute="trailing" secondItem="gcw-Wv-eoR" secondAttribute="trailing" constant="40" id="Aey-eo-nFH"/>
+                            <constraint firstItem="lyB-Gh-hoW" firstAttribute="top" secondItem="7Yf-tf-TkX" secondAttribute="bottom" constant="10" id="GIr-FG-E6Y"/>
+                            <constraint firstItem="Qah-g1-cmb" firstAttribute="leading" secondItem="WVq-UD-mKA" secondAttribute="leading" constant="80" id="J4L-nG-cNn"/>
+                            <constraint firstItem="gcw-Wv-eoR" firstAttribute="leading" secondItem="WVq-UD-mKA" secondAttribute="leading" constant="40" id="Rab-q1-tjg"/>
+                            <constraint firstItem="Qah-g1-cmb" firstAttribute="top" secondItem="gcw-Wv-eoR" secondAttribute="bottom" constant="40" id="Vnn-kh-SXE"/>
+                            <constraint firstItem="gcw-Wv-eoR" firstAttribute="top" secondItem="lyB-Gh-hoW" secondAttribute="bottom" constant="10" id="ZBv-iS-Woj"/>
+                            <constraint firstAttribute="trailing" secondItem="lyB-Gh-hoW" secondAttribute="trailing" constant="40" id="tJb-Xo-4OI"/>
+                            <constraint firstItem="7Yf-tf-TkX" firstAttribute="top" secondItem="gH4-kE-jb3" secondAttribute="bottom" constant="30" id="uXc-E4-0Uc"/>
+                            <constraint firstAttribute="trailing" secondItem="7Yf-tf-TkX" secondAttribute="trailing" constant="40" id="uv3-b8-798"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Q50-fn-yDS"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="oldPwdTextField" destination="7Yf-tf-TkX" id="70K-jt-ybE"/>
+                        <outlet property="oncePwdTextField" destination="lyB-Gh-hoW" id="BC9-zI-foX"/>
+                        <outlet property="resetPwdBtn" destination="Qah-g1-cmb" id="25I-Cv-n1n"/>
+                        <outlet property="secondPwdTextField" destination="gcw-Wv-eoR" id="Cri-5H-6CR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lON-C2-EwQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1098" y="395"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="5Mu-qa-3Je">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ktq-EA-7ok" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fDK-ck-sgk">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="t2Z-jo-rKI" kind="relationship" relationship="rootViewController" id="tzY-nk-4QW"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OTO-4x-4kI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="752" y="395"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="StuSystemInfoCell" rowHeight="97" id="KGk-i7-Jjw" customClass="StuSystemInfoTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="409" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="409" height="96"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="62t-YQ-ZJX">
+                        <rect key="frame" x="4" y="4" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="GEl-vl-5EP"/>
+                            <constraint firstAttribute="height" constant="20" id="iQP-Dh-c7n"/>
+                        </constraints>
+                        <state key="normal" backgroundImage="weidu">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" backgroundImage="yidu"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015-09-23 18:12:32" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4vH-KH-EUX">
+                        <rect key="frame" x="28" y="4" width="130" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="fYD-HV-9aF"/>
+                            <constraint firstAttribute="width" constant="130" id="tFN-wa-P61"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已读" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9a-eu-pci">
+                        <rect key="frame" x="162" y="4" width="30" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="Qty-Lt-Ksb"/>
+                            <constraint firstAttribute="width" constant="30" id="xPo-8m-n3J"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="天龙八部之华山论剑" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PZz-8h-ool">
+                        <rect key="frame" x="28" y="28" width="363" height="14"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="62t-YQ-ZJX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="4" id="5SN-Qd-7YQ"/>
+                    <constraint firstItem="4vH-KH-EUX" firstAttribute="leading" secondItem="62t-YQ-ZJX" secondAttribute="trailing" constant="4" id="7py-wX-F4g"/>
+                    <constraint firstItem="m9a-eu-pci" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="UvC-O0-cqI"/>
+                    <constraint firstItem="PZz-8h-ool" firstAttribute="top" secondItem="m9a-eu-pci" secondAttribute="bottom" constant="4" id="Wbs-ew-ceJ"/>
+                    <constraint firstItem="4vH-KH-EUX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="YRz-tM-whc"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="PZz-8h-ool" secondAttribute="trailing" constant="10" id="YiG-mb-h9n"/>
+                    <constraint firstItem="m9a-eu-pci" firstAttribute="leading" secondItem="4vH-KH-EUX" secondAttribute="trailing" constant="4" id="giE-Dg-yZN"/>
+                    <constraint firstItem="62t-YQ-ZJX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="jZk-2q-k4d"/>
+                    <constraint firstItem="PZz-8h-ool" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="28" id="vkX-Av-du0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="cellBtn" destination="62t-YQ-ZJX" id="MJk-QY-87Z"/>
+                <outlet property="cellContentL" destination="PZz-8h-ool" id="voM-dD-kbP"/>
+                <outlet property="cellReadL" destination="m9a-eu-pci" id="hP2-jN-N8t"/>
+                <outlet property="cellTimeL" destination="4vH-KH-EUX" id="ypj-AD-WgB"/>
+            </connections>
+            <point key="canvasLocation" x="317.5" y="285.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="weidu" width="30" height="30"/>
+        <image name="yidu" width="30" height="30"/>
+    </resources>
+</document>

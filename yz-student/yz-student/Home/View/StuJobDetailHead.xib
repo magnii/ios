@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" restorationIdentifier="StuHomeJobTableViewCell" id="Klk-Bk-GL0" customClass="StuJobDetailHead">
+            <rect key="frame" x="0.0" y="0.0" width="447" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPN-7o-LN4">
+                    <rect key="frame" x="4" y="4" width="56" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="VPN-7o-LN4" secondAttribute="height" multiplier="1:1" id="u98-I8-Bzu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <state key="normal" title="PHP开发" backgroundImage="as13">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="disabled">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="胶南暑假话务员兼职" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WW8-yU-jZg" userLabel="titleL">
+                    <rect key="frame" x="67" y="10" width="108" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="u0d-Mo-KQd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3000元/月" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b6n-tg-WRG">
+                    <rect key="frame" x="367" y="10" width="75" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="Wfx-p6-Mcg"/>
+                        <constraint firstAttribute="width" constant="75" id="xki-Jd-XyP"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2015-12-22" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30A-iA-voN">
+                    <rect key="frame" x="367" y="34" width="75" height="20"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="K8h-Bm-qT0"/>
+                        <constraint firstAttribute="height" constant="20" id="atf-6W-fCx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jau-l9-GIv">
+                    <rect key="frame" x="67" y="34" width="84" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="4cf-rK-fex"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="西湖老城区" image="wx07">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="b6n-tg-WRG" firstAttribute="top" secondItem="Klk-Bk-GL0" secondAttribute="top" constant="10" id="GJE-mc-Xjl"/>
+                <constraint firstItem="WW8-yU-jZg" firstAttribute="leading" secondItem="VPN-7o-LN4" secondAttribute="trailing" constant="8" id="GjL-4E-zuJ"/>
+                <constraint firstAttribute="bottom" secondItem="Jau-l9-GIv" secondAttribute="bottom" constant="8" id="WQy-ep-2Uq"/>
+                <constraint firstAttribute="trailing" secondItem="30A-iA-voN" secondAttribute="trailing" constant="5" id="XQu-XN-BUN"/>
+                <constraint firstAttribute="trailing" secondItem="b6n-tg-WRG" secondAttribute="trailing" constant="5" id="ib5-Ar-bhq"/>
+                <constraint firstItem="WW8-yU-jZg" firstAttribute="top" secondItem="Klk-Bk-GL0" secondAttribute="top" constant="10" id="qQH-XE-5Oy"/>
+                <constraint firstAttribute="bottom" secondItem="VPN-7o-LN4" secondAttribute="bottom" constant="4" id="s0q-uS-Zbw"/>
+                <constraint firstAttribute="bottom" secondItem="30A-iA-voN" secondAttribute="bottom" constant="9" id="sEi-gv-QS5"/>
+                <constraint firstItem="VPN-7o-LN4" firstAttribute="leading" secondItem="Klk-Bk-GL0" secondAttribute="leading" constant="4" id="ug3-Jz-veI"/>
+                <constraint firstItem="Jau-l9-GIv" firstAttribute="leading" secondItem="VPN-7o-LN4" secondAttribute="trailing" constant="8" id="xnq-kc-WDO"/>
+                <constraint firstItem="VPN-7o-LN4" firstAttribute="top" secondItem="Klk-Bk-GL0" secondAttribute="top" constant="4" id="xqd-Xv-Xya"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="jobAddrBtn" destination="Jau-l9-GIv" id="ZGn-bl-FE3"/>
+                <outlet property="jobSalaryL" destination="b6n-tg-WRG" id="co3-kx-GkP"/>
+                <outlet property="jobStartDateL" destination="30A-iA-voN" id="PmK-oN-wFe"/>
+                <outlet property="jobTitleL" destination="WW8-yU-jZg" id="KpJ-zs-mPR"/>
+                <outlet property="jobTypeBtn" destination="VPN-7o-LN4" id="J7Z-ch-vnh"/>
+            </connections>
+            <point key="canvasLocation" x="204.5" y="259"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="as13" width="25" height="31"/>
+        <image name="wx07" width="24" height="24"/>
+    </resources>
+</document>

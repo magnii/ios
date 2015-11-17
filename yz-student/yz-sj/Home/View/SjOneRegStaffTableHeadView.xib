@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Mzd-cN-dsN" customClass="SjOneRegStaffTableHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="371" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="姓名" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W24-02-e1Y">
+                    <rect key="frame" x="0.0" y="0.0" width="93" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="手机号" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2XI-NA-70D">
+                    <rect key="frame" x="93" y="0.0" width="93" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="操作" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POK-7Q-4yo">
+                    <rect key="frame" x="278" y="0.0" width="93" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="工资" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9M-ys-ofK">
+                    <rect key="frame" x="186" y="0.0" width="92" height="60"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.85490196078431369" green="0.85882352941176465" blue="0.8784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="POK-7Q-4yo" firstAttribute="leading" secondItem="L9M-ys-ofK" secondAttribute="trailing" id="2Zp-iK-Cwy"/>
+                <constraint firstItem="W24-02-e1Y" firstAttribute="top" secondItem="Mzd-cN-dsN" secondAttribute="top" id="6Dk-b3-F2o"/>
+                <constraint firstItem="L9M-ys-ofK" firstAttribute="leading" secondItem="2XI-NA-70D" secondAttribute="trailing" id="7Sp-Vh-Q3A"/>
+                <constraint firstItem="L9M-ys-ofK" firstAttribute="leading" secondItem="2XI-NA-70D" secondAttribute="trailing" id="7ka-Fk-gvt"/>
+                <constraint firstItem="2XI-NA-70D" firstAttribute="leading" secondItem="W24-02-e1Y" secondAttribute="trailing" id="9r5-XJ-2ib"/>
+                <constraint firstItem="POK-7Q-4yo" firstAttribute="top" secondItem="Mzd-cN-dsN" secondAttribute="top" id="Ans-j1-D0O"/>
+                <constraint firstAttribute="trailing" secondItem="POK-7Q-4yo" secondAttribute="trailing" id="ArA-Ma-ETs"/>
+                <constraint firstItem="2XI-NA-70D" firstAttribute="top" secondItem="Mzd-cN-dsN" secondAttribute="top" id="C8T-wT-UbN"/>
+                <constraint firstAttribute="bottom" secondItem="W24-02-e1Y" secondAttribute="bottom" id="I0F-uC-X9l"/>
+                <constraint firstItem="L9M-ys-ofK" firstAttribute="height" secondItem="W24-02-e1Y" secondAttribute="height" id="Lhh-JS-obb"/>
+                <constraint firstItem="POK-7Q-4yo" firstAttribute="width" secondItem="W24-02-e1Y" secondAttribute="width" id="Qe5-x9-wcs"/>
+                <constraint firstItem="L9M-ys-ofK" firstAttribute="top" secondItem="Mzd-cN-dsN" secondAttribute="top" id="TlE-0z-InB"/>
+                <constraint firstAttribute="bottom" secondItem="2XI-NA-70D" secondAttribute="bottom" id="VMG-gH-c7X"/>
+                <constraint firstItem="2XI-NA-70D" firstAttribute="width" secondItem="W24-02-e1Y" secondAttribute="width" id="dcJ-hI-bMW"/>
+                <constraint firstItem="POK-7Q-4yo" firstAttribute="leading" secondItem="L9M-ys-ofK" secondAttribute="trailing" id="eFt-vw-d1o"/>
+                <constraint firstAttribute="bottom" secondItem="L9M-ys-ofK" secondAttribute="bottom" id="iGl-lg-iBw"/>
+                <constraint firstItem="2XI-NA-70D" firstAttribute="height" secondItem="W24-02-e1Y" secondAttribute="height" id="jk2-ee-GkG"/>
+                <constraint firstItem="L9M-ys-ofK" firstAttribute="width" secondItem="W24-02-e1Y" secondAttribute="width" id="joM-PI-oBk"/>
+                <constraint firstItem="W24-02-e1Y" firstAttribute="leading" secondItem="Mzd-cN-dsN" secondAttribute="leading" id="nKT-VZ-5uh"/>
+                <constraint firstAttribute="bottom" secondItem="POK-7Q-4yo" secondAttribute="bottom" id="nYx-tf-6B1"/>
+                <constraint firstItem="POK-7Q-4yo" firstAttribute="height" secondItem="W24-02-e1Y" secondAttribute="height" id="rFh-Di-j6t"/>
+                <constraint firstItem="2XI-NA-70D" firstAttribute="leading" secondItem="W24-02-e1Y" secondAttribute="trailing" id="xOk-cc-lkA"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="373.5" y="239"/>
+        </view>
+    </objects>
+</document>

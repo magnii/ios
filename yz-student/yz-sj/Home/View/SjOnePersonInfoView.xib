@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9059" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="C6z-8M-q3E" customClass="SjOnePersonInfoView">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="汪汪汪" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kuh-do-Ild">
+                    <rect key="frame" x="0.0" y="0.0" width="128" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12345678965" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bIP-z7-6v1">
+                    <rect key="frame" x="128" y="0.0" width="127" height="73"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xJl-02-Q4b">
+                    <rect key="frame" x="255" y="0.0" width="128" height="73"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zif-7S-QeV">
+                            <rect key="frame" x="0.0" y="10" width="126" height="24"/>
+                            <color key="backgroundColor" red="0.10980392160000001" green="0.55294117649999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <state key="normal" title="录取">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" title="取消"/>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eql-Y5-4ra">
+                            <rect key="frame" x="0.0" y="39" width="126" height="24"/>
+                            <color key="backgroundColor" red="0.10980392160000001" green="0.55294117649999996" blue="0.83529411760000005" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                            <state key="normal" title="查看签到">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="eql-Y5-4ra" firstAttribute="width" secondItem="Zif-7S-QeV" secondAttribute="width" id="2Ih-pP-tcD"/>
+                        <constraint firstAttribute="trailing" secondItem="Zif-7S-QeV" secondAttribute="trailing" constant="2" id="3Fv-zJ-MR1"/>
+                        <constraint firstItem="eql-Y5-4ra" firstAttribute="top" secondItem="Zif-7S-QeV" secondAttribute="bottom" constant="5" id="6TQ-vv-dox"/>
+                        <constraint firstAttribute="trailing" secondItem="eql-Y5-4ra" secondAttribute="trailing" constant="2" id="Gms-lH-lGk"/>
+                        <constraint firstItem="eql-Y5-4ra" firstAttribute="height" secondItem="Zif-7S-QeV" secondAttribute="height" id="Jpe-DN-XkN"/>
+                        <constraint firstItem="eql-Y5-4ra" firstAttribute="leading" secondItem="xJl-02-Q4b" secondAttribute="leading" id="V7A-qy-BgZ"/>
+                        <constraint firstItem="Zif-7S-QeV" firstAttribute="top" secondItem="xJl-02-Q4b" secondAttribute="top" constant="10" id="Y3m-DH-BFK"/>
+                        <constraint firstItem="Zif-7S-QeV" firstAttribute="leading" secondItem="xJl-02-Q4b" secondAttribute="leading" id="eLv-iI-wAQ"/>
+                        <constraint firstItem="eql-Y5-4ra" firstAttribute="top" secondItem="Zif-7S-QeV" secondAttribute="bottom" constant="5" id="fkf-DQ-UpK"/>
+                        <constraint firstAttribute="bottom" secondItem="eql-Y5-4ra" secondAttribute="bottom" constant="10" id="u0W-QI-M1l"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="xJl-02-Q4b" secondAttribute="bottom" id="1LX-ju-cw6"/>
+                <constraint firstItem="Kuh-do-Ild" firstAttribute="leading" secondItem="C6z-8M-q3E" secondAttribute="leading" id="9sm-YD-ltD"/>
+                <constraint firstItem="xJl-02-Q4b" firstAttribute="width" secondItem="Kuh-do-Ild" secondAttribute="width" id="FKN-CI-uID"/>
+                <constraint firstItem="bIP-z7-6v1" firstAttribute="top" secondItem="C6z-8M-q3E" secondAttribute="top" id="I9N-vo-d6E"/>
+                <constraint firstItem="xJl-02-Q4b" firstAttribute="height" secondItem="Kuh-do-Ild" secondAttribute="height" id="JV7-Xd-y26"/>
+                <constraint firstItem="bIP-z7-6v1" firstAttribute="leading" secondItem="Kuh-do-Ild" secondAttribute="trailing" id="KC8-qs-bVQ"/>
+                <constraint firstAttribute="bottom" secondItem="bIP-z7-6v1" secondAttribute="bottom" id="KvF-Aa-grg"/>
+                <constraint firstItem="bIP-z7-6v1" firstAttribute="leading" secondItem="Kuh-do-Ild" secondAttribute="trailing" id="Lda-SJ-gfe"/>
+                <constraint firstItem="xJl-02-Q4b" firstAttribute="leading" secondItem="bIP-z7-6v1" secondAttribute="trailing" id="RSW-E5-OF8"/>
+                <constraint firstAttribute="trailing" secondItem="xJl-02-Q4b" secondAttribute="trailing" id="W5Q-k4-wuj"/>
+                <constraint firstItem="bIP-z7-6v1" firstAttribute="width" secondItem="Kuh-do-Ild" secondAttribute="width" id="Y9m-0z-2fh"/>
+                <constraint firstItem="Kuh-do-Ild" firstAttribute="top" secondItem="C6z-8M-q3E" secondAttribute="top" id="jjr-To-LmA"/>
+                <constraint firstAttribute="bottom" secondItem="Kuh-do-Ild" secondAttribute="bottom" id="pzg-qJ-rQe"/>
+                <constraint firstItem="bIP-z7-6v1" firstAttribute="height" secondItem="Kuh-do-Ild" secondAttribute="height" id="qYb-a9-KYa"/>
+                <constraint firstItem="xJl-02-Q4b" firstAttribute="top" secondItem="C6z-8M-q3E" secondAttribute="top" id="yHv-AD-6yL"/>
+                <constraint firstItem="xJl-02-Q4b" firstAttribute="leading" secondItem="bIP-z7-6v1" secondAttribute="trailing" id="zF6-2q-v4O"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="checkSignBtn" destination="eql-Y5-4ra" id="vcM-ie-xUK"/>
+                <outlet property="hiredBtn" destination="Zif-7S-QeV" id="qZI-SX-sLE"/>
+                <outlet property="nameL" destination="Kuh-do-Ild" id="fvh-pC-UMh"/>
+                <outlet property="phoneL" destination="bIP-z7-6v1" id="rzV-4d-pSb"/>
+            </connections>
+            <point key="canvasLocation" x="314.5" y="194.5"/>
+        </view>
+    </objects>
+</document>
